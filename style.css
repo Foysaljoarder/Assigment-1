@@ -1,0 +1,163 @@
+section {
+    padding-bottom: 50px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gentium Plus', serif;
+}
+
+.title {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 24px 0;
+}
+
+/*  hero section*/
+#hero {
+    height: 100vh;
+    background: url(donate-today-main/images/donation9.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+
+}
+
+.content {
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+/* donate-area css */
+.heading p {
+    color: gray;
+}
+
+.one-fifth {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.amount-box {
+
+    height: 123px;
+    width: 135px;
+    border-radius: 5px;
+    background: lightgray;
+}
+
+.one-fifth .amount-box h4 {
+    font-size: 30px;
+    color: #707070;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.form input {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B3B3B3;
+    background: transparent;
+}
+
+/* for subscribe */
+.subscription-box {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    width: 82%;
+    height: 196px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+footer {
+    background-color: #0B0D17;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FBA24F;
+}
+
+blockquote.text-center {
+    font-size: 22px;
+    padding: 20px;
+}
+
+/* planbox */
+.planbox {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+    width: 29%;
+    text-align: center;
+    box-shadow: 0px 2px 30px darkgray;
+}
+
+.one-third {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.red-type {
+    background: #ff59591a;
+    border: 2px solid #FF5959;
+}
